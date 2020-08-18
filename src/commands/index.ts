@@ -4,6 +4,7 @@ import configLocales from './configLocalePaths'
 import configLanguages from './configLanguages'
 import keyManipulations from './keyManipulations'
 import extractText from './extractText'
+import autocompletion from './autocompletion'
 import help from './help'
 import refreshUsageReport from './refreshUsageReport'
 import editor from './openEditor'
@@ -19,6 +20,7 @@ const m: ExtensionModule = (ctx) => {
     refreshUsageReport(ctx),
     editor(ctx),
     review(ctx),
+    autocompletion(ctx),
   ])
 }
 

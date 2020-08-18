@@ -57,6 +57,11 @@
         "category": "%extname%"
       },
       {
+        "command": "i18n-ally.toggle-auto-completion",
+        "title": "%command.toggle_autocompletion%",
+        "category": "%extname%"
+      },
+      {
         "command": "i18n-ally.config-locales-auto",
         "title": "%command.config_locales_auto%",
         "category": "%extname%"

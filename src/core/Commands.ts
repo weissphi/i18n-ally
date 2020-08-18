@@ -1,5 +1,6 @@
 
 export const enum Commands {
+  auto_completion = 'i18n-ally.toggle-auto-completion',
   config_locales_auto = 'i18n-ally.config-locales-auto',
   config_display_language = 'i18n-ally.config-display-language',
   config_source_language = 'i18n-ally.config-source-language',
